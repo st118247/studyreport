@@ -172,8 +172,25 @@ Deep learning models are being used in financial product design by working with 
 
 \newpage
 \section{Combating financial fraud}
-In a research~\shortcite{Chen2015} , the Alibaba company developed an analytics solution to tackle fraud in the company. Big data from the company was leveraged to study patterns of financial transactions, user behavior and network analysis to predict in real time with machine learning algorithm, predicting bad user`s and transactions. AntBuckler is a predictive analytics solution developed in-house to detect and prevent fraudulent transactions.
+In a research~\shortcite{Chen2015} , the Alibaba company developed an analytics solution to tackle fraud in the company. Big data from the company was leveraged to study patterns of financial transactions, user behavior and network analysis to predict in real time with machine learning algorithm, predicting bad user`s and transactions. AntBuckler is a predictive analytics solution developed in-house to detect and prevent fraudulent transactions. Big data center of Alibaba use many fraud risk models to deal with activities. They apply the fraud and risk models on all processes related to account opening, identity verification, order placement. AntBuckler generates RAIN score - risk score for merchants and shared with banks, merchants for their judgment on risk levels.
+\newline
+Shown below is the framework Alibaba uses in Alipay~\ref{fig:alipay}.
 
+\begin{figure}[H]
+	\includegraphics[scale = 0.8]{figures/alipay.jpg}
+	\centering
+	\caption{Fraud analytics in Alipay}
+	\label{fig:alipay}
+\end{figure}
+
+Stages of fraud restrictions :
+\begin{itemize}
+	\item Account check
+	\item Device check
+	\item Activity check
+	\item Risk strategy 
+	\item Manual review
+\end{itemize}
 
 \chapter{Prescriptive Techniques} 
 \label{prescriptive-techniques}
