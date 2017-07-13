@@ -58,7 +58,9 @@ There are several techniques employed by businesses to analyze and display data.
 \end{enumerate}
 
 \section{Social media analytics}
+
 \section{Log analytics}
+
 
 \section{Text analytics}
 In a paper titled ``When machines read the news``~\shortcite{gross2011machines}, the authors have used text mining to derive sentiment from company news about intra-day stock trading. 
@@ -204,7 +206,18 @@ Stages of fraud restrictions :
 	\item Manual review
 \end{itemize}
 
-\chapter{Prescriptive Techniques} 
+RAIN - model used by Alibaba stands for Risk of activity, identity and network~\ref{fig:rain_dimension}. It identifies the risk of any object interacting with the Alibaba system such as a human, credit card or account. 3 dimension are defined in the system viz., activity, identity and network; and all variables are classified into them, values of variables are computed for all the objects. Depending upon the scenario particular variables are chosen and RAIN score is computed. Such as in the case of credit card fraud, identity variables are adjusted with higher weights; in the case of credit scoring network group of variables are weighted more. Logistic regression part of a Machine learning is used to determine the weights for a given scenario.
+
+\begin{figure}[H]
+	\includegraphics[scale = 0.8]{figures/RAIN_dimension.png}
+	\centering
+	\caption{Dimensions of RAIN score}
+	\label{fig:rain_dimension}
+\end{figure}
+
+Network based graph representation is also used to link accounts and ip addresses to visually represent the links between name, address, phone, credit card, etc.
+
+\chapter{Prescriptive Techniques}
 \label{prescriptive-techniques}
 
 Prescriptive analytics is really valuable, but largely not used. According to Gartner, 13 percent of organizations are using predictive but only 3 percent are using prescriptive analytics. Where big data analytics in general sheds light on a subject, prescriptive analytics gives you a laser-like focus to answer specific questions. For example, in the health-care industry, you can better manage the patient population by using prescriptive analytics to measure the number of patients who are clinically obese, then add filters for factors like diabetes and LDL cholesterol levels to determine where to focus treatment. The same prescriptive model can be applied to almost any industry target group or problem.
