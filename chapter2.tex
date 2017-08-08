@@ -96,17 +96,11 @@ In this study, researcher could automate the valuation of properties and determi
 \chapter{Predictive Techniques} 
 \label{predictive-techniques}
 
-The basis of Predictive modeling is the use of data mining techniques to forecast future results. Data mining is the process of sorting data to find patterns or infer relationships. Thus a formulation of a statistical model with relevant variables is essential for prediction. 
+The basis of Predictive modeling is the use of data mining techniques to forecast future results. Data mining is the process of sorting data to find patterns or infer relationships. Thus a formulation of a statistical model with relevant variables is essential for prediction~\shortcite{dataMining}. 
 
-Predictive analytics use big data to identify past patterns to predict the future. For example, some companies are using predictive analytics for sales lead scoring. Some companies have gone one step further use predictive analytics for the entire sales process, analyzing lead source, number of communications, types of communications, social media, documents, CRM data, etc. Properly tuned predictive analytics can be used to support sales, marketing, or for other types of complex forecasts.
+Predictive analytics use big data to identify past patterns to predict the future. For example, some companies are using predictive analytics for sales lead scoring. Some companies have gone one step further use predictive analytics for the entire sales process, analyzing lead source, number of communications, types of communications, social media, documents, CRM data, etc. Properly tuned predictive analytics can be used to support sales, marketing, or for other types of complex forecasts~\shortcite{predictiveModelling}.
 
-
-
-
-ref from site (http://searchdatamanagement.techtarget.com/definition/predictive-modeling) and (http://searchsqlserver.techtarget.com/definition/data-mining)
-
-Data mining techniques are used in credit card systems to detect fraud, in loan approval systems, identifying customer types and targeting specific promotional schemes. It is used to model customer behavior and detect churning to certain financial products. Insurance schemes and bank deposits are volatile instruments due to the uncertainty of the free economy. site (https://hbr.org/1996/03/learning-from-customer-defections).
-
+Data mining techniques are used in credit card systems to detect fraud, in loan approval systems, identifying customer types and targeting specific promotional schemes. It is used to model customer behavior and detect churning to certain financial products. Insurance schemes and bank deposits are volatile instruments due to the uncertainty of the free economy~\shortcite{hbrCustomerdefection}.
 
 There are many techniques to modeling predictive analytics 
 
@@ -291,24 +285,83 @@ There exist alternate methods of plan and execution for risk mitigation :
 
 \setlength{\footskip}{8mm}
 
-\chapter{Research literature summary}
+\begin{landscape}
+	\chapter{Research literature summary}
 In this section a summary of all the referred articles are presented in table~\ref{my-label}.
 
-\begin{table}[H]
-	\centering
-%	\resizebox{\textwidth}{!}{%
-
-		\begin{tabular}{|l|l|l|l|l|}
-			\hline
-		\rowcolor[HTML]{000000} 
-		{\color[HTML]{FFFFFF} \textbf{Title \& Author}} & {\color[HTML]{FFFFFF} \textbf{Objective}} & {\color[HTML]{FFFFFF} \textbf{Data}} & {\color[HTML]{FFFFFF} \textbf{Results}} & {\color[HTML]{FFFFFF} \textbf{Further Study}} \\ \hline
-		title                                           & obj                                       & 20                                   & 30                                      & something                                     \\ \hline
-		title                                           & obj                                       & 20                                   & 30                                      & something                                     \\ \hline
-		title                                           & obj                                       & 20                                   & 30                                      & something                                     \\ \hline
-	\end{tabular}%
+%\begin{table}[H]
+%	\centering
+	\hskip-5.0cm 
+	\begin{longtable}[c]{|p{4cm}|p{6cm}|p{4cm}|p{6cm}|}
+				\caption{Long table caption.\label{my-label}}\\
+		\hline
+%		\multicolumn{2}{| c |}{Begin of Table}\\
+%		\hline
+%		Title and Author & Data  & & \\
+				\rowcolor[HTML]{000000} 
+				{\color[HTML]{FFFFFF} \textbf{Title \& Author}} & {\color[HTML]{FFFFFF} \textbf{Objective}} & {\color[HTML]{FFFFFF} \textbf{Data}} & {\color[HTML]{FFFFFF} \textbf{Conclusion}} \\ \hline
+%		\hline
+		\endfirsthead
+		
+		\hline
+%		\multicolumn{2}{|c|}{Continuation of Table \ref{long}}\\
+%		\hline
+%		Something & something else\\
+				\rowcolor[HTML]{000000} 
+				{\color[HTML]{FFFFFF} \textbf{Title \& Author}} & {\color[HTML]{FFFFFF} \textbf{Objective}} & {\color[HTML]{FFFFFF} \textbf{Data}} & {\color[HTML]{FFFFFF} \textbf{Conclusion}} \\ \hline
+		\hline
+		\endhead
+		
+%		\hline
+%		\endfoot
+		
+%		\hline
+%		\multicolumn{2}{| c |}{End of Table}\\
+%		\hline
+		\hline
+		\endlastfoot
+		``When machines read the news``~\shortcite{gross2011machines}
+		& $\rightarrow$ To find if trading is news dependent,
+		\newline $\rightarrow$ To find is intraday news affects high-frequency returns, volatility and liquidity, 
+		\newline $\rightarrow$ To relate the market reaction to the relevant news broadcast
+		& News data sourced from Reuters NewsScope Sentiment Engine, over 29k records of headlines 1 year interval from 2007-2008
+		& It`s a challenging task since news is flooded by noise caused by irrelevant news items. 
+		\\ \hline
+		``Usage of location analysis software in the evaluation of commercial real estate properties``~\shortcite{droj2015usage}                                          & To assess the usefulness of Location analysis to determine the valuation of commercial property. Variables of assessment include proximity to schools, markets, main roads, rail and bus stations; pollution index of area; existence of public services like electricity, water, sewage, phone, heating etc.; access to additional services like education, health centers, leisure, recreation.
+		& Cadaster information from city of Oradea, Romania.
+		& Property value estimation can be evaluated accurately by integrating economic and building construction data to the spatial analysis data. Cadaster administration is used in conjuction with GIS to precisely estimate property values.
+		\\ \hline
+		``Applying Fuzzy Logic and Machine Learning Techniques in Financial Perfor-mance Predictions``~\shortcite{Costea2014}
+		& obj
+		&
+		&
+		\\ \hline
+		``Artificial intelligence. McGraw-Hill, New`` ~\shortcite{rich1991artificial} 
+		& obj 
+		& data 
+		& Conclusion
+		\\
+	\end{longtable}
+	
+%	\begin{tabular}{|p{6cm}|p{6cm}|p{6cm}|l|}
+%			\hline
+%		\rowcolor[HTML]{000000} 
+%		{\color[HTML]{FFFFFF} \textbf{Title \& Author}} & {\color[HTML]{FFFFFF} \textbf{Objective}} & {\color[HTML]{FFFFFF} \textbf{Data}} & {\color[HTML]{FFFFFF} \textbf{Conclusion}} \\ \hline
+%		``When machines read the news``~\shortcite{gross2011machines}
+%		& $\rightarrow$ To find if trading is news dependent,
+%		\newline $\rightarrow$ To find is intraday news affects high-frequency returns, volatility and liquidity, 
+%		\newline $\rightarrow$ To relate the market reaction to the relevant news broadcast
+%		& News data sourced from Reuters NewsScope Sentiment Engine, over 29k records of headlines 1 year interval from 2007-2008
+%		& 30 \\ \hline
+%		``Usage of location analysis software in the evaluation of commercial real
+%		estate properties`` ~\shortcite{droj2015usage}                                          & obj                                       & 20                                   & 30        \\ \hline
+%		``Applying Fuzzy Logic and Machine Learning Techniques in Financial Perfor-
+%		mance Predictions`` ~\shortcite{Costea2014}                                          & obj                                       & 20                                   & 30         \\ \hline
+%		``Artificial intelligence. McGraw-Hill, New`` ~\shortcite{rich1991artificial} & obj & data & Conclusion\\ \hline
+%	\end{tabular}%
 %	}
 
-	\caption{Literature review summary table}
-	\label{my-label}
-\end{table}
-
+%	\caption{Literature review summary table}
+%	\label{my-label}
+%\end{table}
+\end{landscape}
