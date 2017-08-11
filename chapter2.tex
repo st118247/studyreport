@@ -2,12 +2,12 @@
 
 \chapter{Analytics in financial institutions}
 
-\section{Why?}
+\section{Rationale for use of analytics?}
 According to a joint research study, by Boston Consulting Group and Morgan Stanley with analytics professionals, it was reveled that the financial institutions lagged behind other verticals in the use of data analytics~\shortcite{BCGanalytics2017} and it is shown in figure~\ref{fig:da_digitization}. One of the findings of the research was that FI's are investing a lot of capital, an estimated total of about \textdollar1bn. In addition it was found that for near term value creation the FI's expected data analytics to optimize customer acquisition, customer retention, operational efficiency, and risk mitigation.
 \newline
 \newline
 \begin{figure}[H]
-	\includegraphics[scale = 0.7]{figures/DA_used_verticals.png}
+	\includegraphics[width=13cm, height=12cm]{figures/DA_used_verticals.png}
 	\caption{Reprinted from the Morgan Stanley Digitization Index ranks }
 	\label{fig:da_digitization}
 \end{figure}
@@ -35,11 +35,79 @@ For every new technology there are certain common challenges, such as those of a
 Some hurdles, such as of vision, budget, and getting all members on board, are faced early in the life-cycle of adopting such bold complex projects. Institution leadership faces the tough task of decision making and if rests on them to perceive value at the end of project.
 Even after adopting analytics and tools, management faces challenges of educating shareholders, staff and customers to be literate enough to invest and interact with solutions for effective usage.
 
+\section{Types of data mining}
+There are broadly defined three categories of analytic techniques, as follows :
+\begin{enumerate}
+	\item Descriptive analytics elaborated in the chapter~\ref{descriptive-techniques}
+	\item Predictive analytics is described in the chapter~\ref{predictive-techniques}
+	\item Prescriptive analytics discussed in the chapter~\ref{prescriptive-techniques}
+\end{enumerate}
+
+According to Paul following are use cases  of data analytics :
+\begin{enumerate}
+	\item Analytics powers our decisions – we do not need to guess while making bold new decisions, we should use the information from data at hand.
+	\item Your data analysis weighs down your opponent's argument.
+	\item Cut down on loss making ventures with data analytics.
+	\item Can be applied to all domains be it health-care, banking, marketing, sales, operations etc.
+\end{enumerate}
+
+On the scenario when describing Data analytics it is very important to put the focus on Hypothesis.
+
+Shown in the table~\ref{tableDMusecase} is some business areas 
+
+
+\begin{table}[H]
+	\centering
+	%	\hskip-1.8cm
+	\begin{tabular}{|p{4cm}|p{4cm}|l|}
+		\hline
+		\textbf{Application area} & \textbf{Applications} & \textbf{Specifics}\\
+		\hline
+		Insurance & Fraud detection & Identify claims meriting investigation\\
+		\hline
+		Telecom & Churn & Identify likely customer turnover\\
+		\hline
+		Telemarketing & On-line information & Aid telemarketers with easy data access\\
+		\hline
+		Human resource management & Churn & Identify potential employee turnover\\
+		\hline
+		\multirow{2}{4em}{Retail}  & Affinity positioning & Position product effectively\\
+		& Cross-selling & Find more products for customers\\
+		\hline
+		\multirow{2}{4em}{Banking} & Customer relationship management & Identify customer value\\
+		&& Develop programs to maximize revenue\\
+		\hline
+		Credit card management & Lift & Identify effective market segments\\
+		& Churn & Identify likely customer turnover\\
+		\hline
+	\end{tabular}
+	\caption{Data mining use cases}
+	\label{tableDMusecase}
+\end{table}
+
+Figure \ref{fig:data-analytics} is a view of the data analytics with respect to the main fields.
+
+\begin{figure}[H]
+	\includegraphics[scale = 0.6]{figures/AnalyticsDomain.png}
+	\centering
+	\caption{Data Analytics}
+	\label{fig:data-analytics}
+\end{figure}
+\FloatBarrier
+
+Below we see a representations for the advanced analytics and business analytics~\ref{fig:rapidminer-aa}.
+
+\begin{figure}[H]
+	\includegraphics[scale=0.4]{figures/RapidMiner_AdvancedAnalytics_new.png}
+	\caption{Advanced analytics}
+	\label{fig:rapidminer-aa}
+\end{figure}
+
 
 
 
 \chapter{Descriptive Techniques} 
-\label{ch:literature-review}
+\label{descriptive-techniques}
 
 The sole purpose of using the methods in this category would be to describe the Hypothesis. Descriptive analytics or data mining are at the bottom of the big data value chain, but they can be valuable for uncovering patterns that offer insight. A simple example of descriptive analytics would be assessing credit risk; using past financial performance to predict a customer’s likely financial performance. Descriptive analytics can be useful in the sales cycle, for example, to categorize customers by their likely product preferences and sales cycle.
 
@@ -181,15 +249,15 @@ In the paper ref~\shortcite{heaton2016deep} the authors have presented a list of
 
 Deep learning models are being used in financial product design by working with big data. These models produce better results than the traditional techniques of economics. 
 
-\section{Voice analytics}
+\section{Supervised learning - Decision tree}
+The article titled ``What drives gold returns? A decision tree analysis`` ~\shortcite{malliaris2015drives} the authors discuss gold price fluctuations 
+
+
+%\section{Image recognition}
 
 
 
-\section{Image recognition}
-
-
-
-\section{Video analytics}
+%\section{Video analytics}
 
 
 
@@ -294,7 +362,7 @@ In this section a summary of all the referred articles are presented in table~\r
 %	\centering
 	\hskip-5.0cm 
 	\begin{longtable}[c]{|p{4cm}|p{6cm}|p{4cm}|p{6cm}|}
-				\caption{Long table caption.\label{my-label}}\\
+				\caption{Relevant papers referenced.\label{my-label}}\\
 		\hline
 %		\multicolumn{2}{| c |}{Begin of Table}\\
 %		\hline
